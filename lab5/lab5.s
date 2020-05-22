@@ -51,7 +51,6 @@
 					MOV		R2,R8 //move R2 back
 
 					STR 	R10,[R0,R7, lsl 2]//copy result of mult and add to A
-
 					ADD 	R5,R5,1 //k++
 					B 		k_loop
 				end_k:
